@@ -130,7 +130,7 @@ function App() {
         items={[1, 2, 3, 4, 5]}
         render={(item: number) => <div>{item + 10}</div>}
       />
-      <MyHeader title="ReactNode can accept string too!" />
+      <MyHeader title="ReactNode accept string too!" />
     </div>
   );
 }
